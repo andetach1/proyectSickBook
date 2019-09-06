@@ -1,0 +1,109 @@
+  /*
+      To change this license header, choose License Headers in Project Properties.
+      To change this template file, choose Tools | Templates
+      and open the template in the editor.
+      */
+      /*
+          Created on : 29/08/2019, 09:17:22 PM
+          Author     : ctach
+      */
+
+      .body{
+          height: 1000px;
+          background-image: linear-gradient(to bottom, #9ddf9c, #2196f3);
+      }
+
+      .inputs{
+          border-radius: 15px;
+          padding: 10px;
+          background-color: transparent;
+          border: solid black 1px;
+      }
+      .botones{
+          border-radius: 15px;
+          padding: 8px;
+          padding-left: 18px;
+          padding-right: 18px;
+          background-color: cornflowerblue;
+          border: solid black 1px;
+          bottom:-50px;
+          position: absolute;
+      }
+      .hipervinculos{
+          position: absolute;
+          right: -15px;
+          bottom: -80px;
+      }
+      .centrar{
+          left: 50%;
+          top: 50%;
+          right: 50%;
+          margin-left: -150px;
+          position: absolute;
+          align-content: center;
+      }
+      .mediaventana{
+        top:10%;
+        left: 50%;
+        right: 50%;
+        margin-left : -150px;
+        position:absolute;
+        align-content:center;
+      }
+      .divisor{
+        padding-left:1300px;
+        position:absolute;
+        top:40%;
+        left:20px;
+        border: 0.5px solid black;
+      }
+      .segundo_segmento{
+        top:50%;
+        left:120px;
+        position:absolute;
+        align-content:center;
+      }
+      .iframe{
+        border: 1px solid black;
+        border-radius: 15px;
+      }
+      .foto{
+        position:absolute;
+        left:-250px;
+        border-radius: 60px;
+        width:150px;
+        height:150px;
+      }
+      .label_iframe{
+        position:absolute;
+        top: 90px;
+        z-index: 999;
+        left: -400px;
+        background-color: mediumaquamarine;
+    }
+      .label_pregunta{
+        bottom: -650px;
+        position: relative;
+        right: 350px;
+        width: 300px;
+        display: block;
+
+      }
+      .tabla_preguntas{
+        width: 90%;
+        height: 350px;
+        left: 100px;
+        position: absolute;
+      }
+      .recomendaciones{
+        height: 150px;
+        margin-top: 30px;
+        border: 1px solid black;
+        border-radius: 15px;
+      }
+      .label_recomendaciones{
+        position: relative;
+        top: -10px;
+        left: 30px;
+        background-color: mediumaquamarine;
+      }
