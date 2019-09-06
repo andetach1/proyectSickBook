@@ -21,7 +21,7 @@
                 <th>Fecha</th>
               </tr>
               <tr>
-                  <td><a href="recomendaciones.jsp">ver</a> </td>
+                  <td><a href="recomendaciones">ver</a> </td>
                 <td></td>
                 <td></td>
               </tr>
