@@ -56,14 +56,14 @@
           </table>
       </div>
       <div class="mediaventana" style="top: 110px; right:200px;">
-        <input type="button" style="right: -20px;" class="botones" name="guardar" value="Guardar">
+        <input type="button" style="right: -20px;" class="botones" name="guardar" value="Guardar" onclick="location.href='perfil'">
       </div>
       <hr class="divisor"/>
 
       <div class="segundo_segmento">
-                  <iframe class="iframe" src="consultas.jsp" width="1100px" height="400px">
+                  <iframe class="iframe" src="consultas" width="1100px" height="400px">
                   </iframe>
-                  <input type="button" class="botones" style="right: 45%;" name="consulta" value="Consulta nueva">
+                  <input type="button" class="botones" style="right: 45%;" name="consulta" onclick="location.href='preguntas'" value="Consulta nueva">
       </div>
     </body>
 </html>
