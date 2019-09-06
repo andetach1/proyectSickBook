@@ -25,10 +25,10 @@
         <div class="mediaventana">
             <select class="inputs" id="listado" style="position:absolute;left:100px;"onchange="selector_sintoma()">
                 <option value="" target="sintomas"></option>
-                <option value="sintomaCabeza.jsp" target="sintomas">Cabeza</option>
-                <option value="sintomaEstomago.jsp" target="sintomas">Estomago</option>
-                <option value="sintomaArticulaciones.jsp" target="sintomas">Articulaciones</option>
-                <option value="sintomaPecho.jsp" target="sintomas">pecho</option>
+                <option value="sintomaCabeza" target="sintomas">Cabeza</option>
+                <option value="sintomaEstomago" target="sintomas">Estomago</option>
+                <option value="sintomaArticulaciones" target="sintomas">Articulaciones</option>
+                <option value="sintomaPecho" target="sintomas">pecho</option>
             </select>
             <div>
                 <label class="label_iframe" for="sintomas">Síntomas</label>
@@ -36,7 +36,7 @@
             </div>
 
             <label class="label_pregunta"> ¿Tiene algún otro síntoma?<input type="checkbox" id="otroSintoma"></label>
-            <input type="button" class="botones" style="bottom:-550px;left:100px"value="Siguiente">
+            <input type="button" class="botones" style="bottom:-550px;left:100px"value="Siguiente" onclick="location.href='perfil'">
 
         </div>
 
