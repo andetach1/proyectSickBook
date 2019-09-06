@@ -19,7 +19,7 @@
             <img src="imagenes/logo.png">
             <a href="https://www.salud.mapfre.es/cuerpo-y-mente/habitos-saludables/la-importancia-de-cuidar-la-salud/" title=""><img src="imagenes/publicidad.jpg"></a>
         </div>
-
+    <form:form action = "addUser" method="post" modelAttribute="user">
         <div class="centrar"> 
             <table>
                 <tr>
@@ -45,17 +45,18 @@
                     <td>
                         <input type="text" class="inputs">
                     </td>
-                        
+
                 </tr>
 
                 <tr>
                     <td colspan="2" style="text-align: center">
-                        <input type="button" class="botones" value="Enviar" >
+                        <input type="button" class="botones" onclick="location.href='login'" value="Enviar">
                     </td>                    
                 </tr>
-                
+
             </table>
 
         </div>
-    </body>
+    </form>
+</body>
 </html>
